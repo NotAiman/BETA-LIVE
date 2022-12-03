@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-img {
+    background-image: url('img/pattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background-color: rgba(7, 7, 7, 0.69);
+}
+
+.pogo {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    text-align: right;
+    float: right;
+}
+
+.navbar li{
+    display: inline-flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#fff;
+    width:100px;
+    display: block;
+    padding: 25px 10px;
+    text-transform: uppercase;
+    font-family: Odibee Sans;
+    text-align: center;
+    font-size: x-large;
+}
+
+a:hover {
+    color: rgb(152, 152, 152);
+}
+
+.SF {
+    position: absolute;
+    height: 50vh;
+    width: auto;
+    border-radius: 70px;
+    top: 25vh;
+    left: 13vw;
+    box-shadow: 0px 10px 50px black;
+}
+
+.SF:hover {
+    box-shadow: 0px 10px 25px black;
+    top: 24vh;
+}
+
+.txt {
+    font-family: Odibee Sans;
+    position: absolute;
+    color: #fff;
+    font-size: xx-large;
+    top: 32vh;
+    left: 60vw;
+    text-align: center;
+}
+
+.space {
+    height: 4vh;
+}
+
+.space2 {
+    height: 10vh;
+}
+
+.DN-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+}
